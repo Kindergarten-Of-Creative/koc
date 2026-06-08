@@ -57,7 +57,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'Ethereum ERC20',
     address: '0x4b1ab768a07c59068b988bc2fa9e0001cc2049ec',
-    qrImage: '/assets/usdt-erc20-qr.jpg',
+    qrImage: '/assets/qr-erc20.png',
     explorer: 'https://etherscan.io/address/'
   },
   {
@@ -66,7 +66,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'Tron TRC20',
     address: 'TJQNSUSdMgd9eEX97NNkgbKaqm3TUdU4zW',
-    qrImage: '/assets/qr-bep20.png',
+    qrImage: '/assets/qr-trc20.png',
     explorer: 'https://tronscan.org/#/address/'
   },
   {
@@ -75,7 +75,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'BNB Smart Chain BEP20',
     address: '0x4b1ab768a07c59068b988bc2fa9e0001cc2049ec',
-    qrImage: '/assets/usdt-bep20-qr.jpg',
+    qrImage: '/assets/qr-bep20.png',
     explorer: 'https://bscscan.com/address/'
   }
 ];
