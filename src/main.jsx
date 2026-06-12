@@ -515,7 +515,7 @@ function Reports({ t, isAr }) {
 }
 
 function Updates({ t, isAr }) {
-  const facebookUrl = env.VITE_FACEBOOK_URL || 'https://facebook.com/';
+  const facebookUrl = env.VITE_FACEBOOK_URL || 'https://www.facebook.com/roda.alebda3.altarbawy';
   return (
     <section id="updates" className="section updates-section">
       <div className="section-header">
@@ -547,11 +547,11 @@ function Updates({ t, isAr }) {
 
 function Contact({ t, isAr }) {
   const contacts = [
-    { icon: MessageCircle, label: 'WhatsApp', value: env.VITE_WHATSAPP_URL || '#verify' },
-    { icon: MessageCircle, label: 'Telegram', value: env.VITE_TELEGRAM_URL || '#verify' },
-    { icon: Mail, label: 'Email', value: env.VITE_EMAIL ? `mailto:${env.VITE_EMAIL}` : '#verify' },
-    { icon: Instagram, label: 'Instagram', value: env.VITE_INSTAGRAM_URL || '#verify' },
-    { icon: Facebook, label: 'Facebook', value: env.VITE_FACEBOOK_URL || '#verify' }
+    { icon: MessageCircle, label: 'WhatsApp', value: env.VITE_WHATSAPP_URL || 'https://wa.me/972599834486' },
+    { icon: MessageCircle, label: 'Telegram', value: env.VITE_TELEGRAM_URL || '#temp' },
+    { icon: Mail, label: 'Email', value: env.VITE_EMAIL ? `mailto:${env.VITE_EMAIL}` : 'khalil3533565@gmail.com' },
+    { icon: Instagram, label: 'Instagram', value: env.VITE_INSTAGRAM_URL || '#temp' },
+    { icon: Facebook, label: 'Facebook', value: env.VITE_FACEBOOK_URL || 'https://www.facebook.com/roda.alebda3.altarbawy' }
   ];
 
   return (
