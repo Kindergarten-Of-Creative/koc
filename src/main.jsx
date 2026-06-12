@@ -39,7 +39,7 @@ const env = import.meta.env;
 
 const images = {
   logo: './assets/logo.webp',
-  hero: './assets/drawing-child.jpeg',
+  hero: './assets/drawing-child.png',
   classroom: './assets/children-classroom.jpeg',
   table: './assets/children-table.jpeg',
   sun: './assets/sun-child.jpeg',
