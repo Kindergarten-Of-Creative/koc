@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Kindergarten-Of-Creative.github.io/koc/",
   "name": "gaza-kindergarten-relief",
   "private": true,
   "version": "1.0.0",
@@ -6,7 +7,8 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",
