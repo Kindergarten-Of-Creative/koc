@@ -38,16 +38,16 @@ import './styles.css';
 const env = import.meta.env;
 
 const images = {
-  logo: '/assets/logo.webp',
-  hero: '/assets/drawing-child.jpeg',
-  classroom: '/assets/children-classroom.jpeg',
-  table: '/assets/children-table.jpeg',
-  sun: '/assets/sun-child.jpeg',
-  playground: '/assets/playground-child.jpeg',
-  hearts: '/assets/hearts-classroom.jpeg',
-  damageInside: '/assets/damage-inside.jpeg',
-  damageYard: '/assets/damage-yard.jpeg',
-  brokenSlide: '/assets/broken-slide.jpeg'
+  logo: './assets/logo.webp',
+  hero: './assets/drawing-child.jpeg',
+  classroom: './assets/children-classroom.jpeg',
+  table: './assets/children-table.jpeg',
+  sun: './assets/sun-child.jpeg',
+  playground: './assets/playground-child.jpeg',
+  hearts: './assets/hearts-classroom.jpeg',
+  damageInside: './assets/damage-inside.jpeg',
+  damageYard: './assets/damage-yard.jpeg',
+  brokenSlide: './assets/broken-slide.jpeg'
 };
 
 const wallets = [
@@ -57,7 +57,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'Ethereum ERC20',
     address: '0x4b1ab768a07c59068b988bc2fa9e0001cc2049ec',
-    qrImage: '/assets/qr-erc20.png',
+    qrImage: './assets/qr-erc20.png',
     explorer: 'https://etherscan.io/address/'
   },
   {
@@ -66,7 +66,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'Tron TRC20',
     address: 'TJQNSUSdMgd9eEX97NNkgbKaqm3TUdU4zW',
-    qrImage: '/assets/qr-trc20.png',
+    qrImage: './assets/qr-trc20.png',
     explorer: 'https://tronscan.org/#/address/'
   },
   {
@@ -75,7 +75,7 @@ const wallets = [
     symbol: 'USDT',
     network: 'BNB Smart Chain BEP20',
     address: '0x4b1ab768a07c59068b988bc2fa9e0001cc2049ec',
-    qrImage: '/assets/qr-bep20.png',
+    qrImage: './assets/qr-bep20.png',
     explorer: 'https://bscscan.com/address/'
   }
 ];
@@ -90,7 +90,7 @@ const checkoutLinks = [
     descriptionAr: 'دفع مباشر لقرطاسية مدرسية لطفل واحد.',
     note: '$10 USD covers school stationery for one kid.',
     noteAr: '10 دولار توفر قرطاسية مدرسية لطفل واحد.',
-    qrImage: '/assets/nowpayments-10-usd.png',
+    qrImage: './assets/nowpayments-10-usd.png',
     url: 'https://nowpayments.io/donation?api_key=8ee60387-8c76-4f31-a657-116e23c436af'
   },
   {
@@ -102,7 +102,7 @@ const checkoutLinks = [
     descriptionAr: 'رابط دفع مباشر عبر NOWPayments لمساهمة أصغر.',
     note: 'Add your name if you want us to list it on our social media updates.',
     noteAr: 'أضف اسمك إذا أردت ذكره في تحديثاتنا على وسائل التواصل.',
-    qrImage: '/assets/nowpayments-5-usdt.png',
+    qrImage: './assets/nowpayments-5-usdt.png',
     url: 'https://nowpayments.io/payment/?iid=6123186891'
   }
 ];
